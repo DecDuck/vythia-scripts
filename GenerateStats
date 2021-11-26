@@ -1,0 +1,15 @@
+print(** Generating player stats **);
+output = ~
+loop(6){
+    value = 0
+    smallest = 0
+    loop(4){
+        testing = rand(6)+1
+        value = value + testing
+        if(testing < smallest){
+            smallest = testing
+        }
+    }
+    value = value - smallest
+    output = join(Stat:, value,\n)
+}
