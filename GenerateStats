@@ -11,6 +11,6 @@ loop(6){
         }
     }
     value = value - smallest
-    output = join(Stat:, value,\n)
+    output = join(output,Stat:, value,\n)
 }
 print(output)
