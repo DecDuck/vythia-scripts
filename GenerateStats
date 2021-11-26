@@ -13,3 +13,4 @@ loop(6){
     value = value - smallest
     output = join(Stat:, value,\n)
 }
+print(output)
